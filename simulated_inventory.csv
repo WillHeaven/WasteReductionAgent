@@ -1,0 +1,765 @@
+Product ID,Product Name,Category,Store ID,Location,Expiry Date,Stock Qty,Daily Sales,Storage Temp,Date,Weather,Price
+P001,Milk,Dairy,S001,Downtown,28-07-2025,46,2,4,21-07-2025,Rainy,11.02
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,68,6,4,17-07-2025,Sunny,9.24
+P006,Salmon,Seafood,S003,Suburb,24-07-2025,58,0,2,21-07-2025,Cloudy,7.56
+P006,Salmon,Seafood,S001,Downtown,20-07-2025,84,14,2,15-07-2025,Cloudy,13
+P004,Lettuce,Produce,S001,Downtown,26-07-2025,72,0,5,20-07-2025,Rainy,6.96
+P001,Milk,Dairy,S003,Suburb,20-07-2025,68,3,4,17-07-2025,Sunny,4.81
+P005,Strawberries,Produce,S002,Uptown,22-07-2025,96,12,4,19-07-2025,Sunny,8.84
+P001,Milk,Dairy,S001,Downtown,17-07-2025,83,12,4,13-07-2025,Cloudy,7.95
+P004,Lettuce,Produce,S002,Uptown,14-07-2025,43,7,5,10-07-2025,Snowy,11.73
+P006,Salmon,Seafood,S001,Downtown,25-07-2025,84,2,2,16-07-2025,Sunny,2.13
+P004,Lettuce,Produce,S003,Suburb,24-07-2025,75,3,5,15-07-2025,Cloudy,7.79
+P002,Yogurt,Dairy,S002,Uptown,21-07-2025,80,13,4,15-07-2025,Rainy,10.6
+P001,Milk,Dairy,S003,Suburb,24-07-2025,69,13,4,21-07-2025,Snowy,5.98
+P002,Yogurt,Dairy,S003,Suburb,25-07-2025,30,11,4,16-07-2025,Snowy,8.66
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,45,4,4,15-07-2025,Snowy,8.58
+P003,Chicken Breast,Meat,S002,Uptown,16-07-2025,43,15,2,10-07-2025,Rainy,14.84
+P008,Ground Beef,Meat,S003,Suburb,28-07-2025,92,10,2,19-07-2025,Sunny,14.19
+P005,Strawberries,Produce,S001,Downtown,11-07-2025,70,7,4,08-07-2025,Sunny,8.72
+P010,Shrimp,Seafood,S003,Suburb,16-07-2025,22,3,2,13-07-2025,Rainy,5.93
+P003,Chicken Breast,Meat,S002,Uptown,15-07-2025,78,8,2,12-07-2025,Cloudy,9.56
+P002,Yogurt,Dairy,S003,Suburb,13-07-2025,63,14,4,10-07-2025,Snowy,7.64
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P006,Salmon,Seafood,S001,Downtown,16-07-2025,74,11,2,13-07-2025,Cloudy,5.55
+P001,Milk,Dairy,S002,Uptown,22-07-2025,52,8,4,19-07-2025,Sunny,10.37
+P001,Milk,Dairy,S003,Suburb,20-07-2025,68,3,4,17-07-2025,Sunny,4.81
+P003,Chicken Breast,Meat,S002,Uptown,22-07-2025,33,4,2,16-07-2025,Cloudy,13.75
+P006,Salmon,Seafood,S003,Suburb,16-07-2025,26,13,2,10-07-2025,Snowy,5.74
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,61,2,2,16-07-2025,Rainy,8.31
+P004,Lettuce,Produce,S002,Uptown,14-07-2025,48,2,5,09-07-2025,Rainy,11.36
+P002,Yogurt,Dairy,S002,Uptown,31-07-2025,68,5,4,21-07-2025,Cloudy,4.17
+P004,Lettuce,Produce,S002,Uptown,20-07-2025,38,10,5,12-07-2025,Rainy,8.07
+P003,Chicken Breast,Meat,S001,Downtown,21-07-2025,93,14,2,11-07-2025,Sunny,3.74
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P001,Milk,Dairy,S002,Uptown,22-07-2025,52,8,4,19-07-2025,Sunny,10.37
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,61,2,2,16-07-2025,Rainy,8.31
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P006,Salmon,Seafood,S001,Downtown,16-07-2025,74,11,2,13-07-2025,Cloudy,5.55
+P008,Ground Beef,Meat,S001,Downtown,16-07-2025,65,5,2,09-07-2025,Rainy,7.1
+P005,Strawberries,Produce,S001,Downtown,14-07-2025,66,5,4,09-07-2025,Sunny,9.19
+P006,Salmon,Seafood,S001,Downtown,12-07-2025,45,11,2,09-07-2025,Cloudy,14.94
+P008,Ground Beef,Meat,S002,Uptown,17-07-2025,61,2,2,14-07-2025,Sunny,11.04
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P002,Yogurt,Dairy,S003,Suburb,24-07-2025,38,10,4,14-07-2025,Sunny,9.61
+P001,Milk,Dairy,S003,Suburb,17-07-2025,56,4,4,14-07-2025,Rainy,7.43
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,61,2,2,16-07-2025,Rainy,8.31
+P004,Lettuce,Produce,S003,Suburb,21-07-2025,58,4,5,17-07-2025,Rainy,10.47
+P009,Spinach,Produce,S002,Uptown,18-07-2025,98,6,5,15-07-2025,Sunny,3.58
+P001,Milk,Dairy,S003,Suburb,19-07-2025,32,14,4,13-07-2025,Rainy,6.83
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P003,Chicken Breast,Meat,S001,Downtown,11-07-2025,79,12,2,08-07-2025,Sunny,10.56
+P007,Eggs,Dairy,S001,Downtown,11-07-2025,55,6,4,08-07-2025,Sunny,2.59
+P005,Strawberries,Produce,S001,Downtown,22-07-2025,66,11,4,17-07-2025,Rainy,6.58
+P003,Chicken Breast,Meat,S002,Uptown,17-07-2025,97,11,2,14-07-2025,Sunny,8.6
+P003,Chicken Breast,Meat,S001,Downtown,23-07-2025,78,10,2,16-07-2025,Snowy,4.54
+P003,Chicken Breast,Meat,S001,Downtown,11-07-2025,79,12,2,08-07-2025,Sunny,10.56
+P007,Eggs,Dairy,S001,Downtown,11-07-2025,55,6,4,08-07-2025,Sunny,2.59
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,61,2,2,16-07-2025,Rainy,8.31
+P004,Lettuce,Produce,S001,Downtown,18-07-2025,94,13,5,09-07-2025,Rainy,11.15
+P005,Strawberries,Produce,S003,Suburb,19-07-2025,55,9,4,10-07-2025,Rainy,8.04
+P005,Strawberries,Produce,S001,Downtown,11-07-2025,70,7,4,08-07-2025,Sunny,8.72
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,100,9,4,20-07-2025,Sunny,4.95
+P010,Shrimp,Seafood,S001,Downtown,15-07-2025,21,0,2,12-07-2025,Cloudy,13.53
+P001,Milk,Dairy,S001,Downtown,20-07-2025,88,3,4,10-07-2025,Sunny,6.41
+P005,Strawberries,Produce,S001,Downtown,30-07-2025,68,15,4,20-07-2025,Snowy,12.09
+P001,Milk,Dairy,S001,Downtown,14-07-2025,35,6,4,11-07-2025,Rainy,4.1
+P009,Spinach,Produce,S002,Uptown,18-07-2025,98,6,5,15-07-2025,Sunny,3.58
+P004,Lettuce,Produce,S001,Downtown,26-07-2025,60,7,5,21-07-2025,Sunny,4.24
+P001,Milk,Dairy,S002,Uptown,18-07-2025,71,7,4,12-07-2025,Rainy,14.24
+P006,Salmon,Seafood,S002,Uptown,20-07-2025,56,10,2,11-07-2025,Snowy,4.85
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,61,2,2,16-07-2025,Rainy,8.31
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P001,Milk,Dairy,S001,Downtown,14-07-2025,35,6,4,11-07-2025,Rainy,4.1
+P004,Lettuce,Produce,S002,Uptown,14-07-2025,60,11,5,08-07-2025,Rainy,9.34
+P009,Spinach,Produce,S001,Downtown,23-07-2025,89,0,5,15-07-2025,Snowy,7.91
+P003,Chicken Breast,Meat,S001,Downtown,16-07-2025,42,1,2,13-07-2025,Snowy,14.14
+P006,Salmon,Seafood,S001,Downtown,19-07-2025,43,13,2,14-07-2025,Rainy,6.82
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,45,4,4,15-07-2025,Snowy,8.58
+P005,Strawberries,Produce,S001,Downtown,11-07-2025,70,7,4,08-07-2025,Sunny,8.72
+P001,Milk,Dairy,S003,Suburb,17-07-2025,56,4,4,14-07-2025,Rainy,7.43
+P005,Strawberries,Produce,S003,Suburb,27-07-2025,45,12,4,17-07-2025,Cloudy,2.59
+P008,Ground Beef,Meat,S001,Downtown,24-07-2025,41,12,2,21-07-2025,Rainy,9.95
+P002,Yogurt,Dairy,S002,Uptown,19-07-2025,84,9,4,10-07-2025,Cloudy,12.02
+P002,Yogurt,Dairy,S003,Suburb,19-07-2025,80,1,4,15-07-2025,Cloudy,14.27
+P003,Chicken Breast,Meat,S002,Uptown,27-07-2025,65,11,2,21-07-2025,Snowy,5.59
+P005,Strawberries,Produce,S003,Suburb,19-07-2025,47,1,4,15-07-2025,Rainy,11.87
+P009,Spinach,Produce,S003,Suburb,15-07-2025,84,3,5,10-07-2025,Rainy,5.27
+P003,Chicken Breast,Meat,S001,Downtown,17-07-2025,72,15,2,14-07-2025,Snowy,8.7
+P005,Strawberries,Produce,S003,Suburb,28-07-2025,86,9,4,20-07-2025,Snowy,4.85
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P005,Strawberries,Produce,S002,Uptown,22-07-2025,96,12,4,19-07-2025,Sunny,8.84
+P002,Yogurt,Dairy,S002,Uptown,19-07-2025,56,7,4,14-07-2025,Snowy,9.39
+P004,Lettuce,Produce,S003,Suburb,14-07-2025,78,6,5,10-07-2025,Cloudy,14.78
+P001,Milk,Dairy,S003,Suburb,20-07-2025,93,13,4,16-07-2025,Rainy,9.97
+P005,Strawberries,Produce,S002,Uptown,26-07-2025,40,14,4,18-07-2025,Snowy,9.89
+P009,Spinach,Produce,S002,Uptown,20-07-2025,50,13,5,10-07-2025,Snowy,11.58
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,100,9,4,20-07-2025,Sunny,4.95
+P001,Milk,Dairy,S003,Suburb,24-07-2025,69,13,4,21-07-2025,Snowy,5.98
+P003,Chicken Breast,Meat,S001,Downtown,11-07-2025,79,12,2,08-07-2025,Sunny,10.56
+P010,Shrimp,Seafood,S001,Downtown,16-07-2025,57,8,2,10-07-2025,Snowy,2.54
+P003,Chicken Breast,Meat,S001,Downtown,17-07-2025,72,15,2,14-07-2025,Snowy,8.7
+P004,Lettuce,Produce,S001,Downtown,19-07-2025,61,0,5,16-07-2025,Sunny,3.79
+P009,Spinach,Produce,S003,Suburb,15-07-2025,70,14,5,11-07-2025,Cloudy,5.96
+P010,Shrimp,Seafood,S001,Downtown,15-07-2025,21,0,2,12-07-2025,Cloudy,13.53
+P006,Salmon,Seafood,S003,Suburb,16-07-2025,46,3,2,09-07-2025,Cloudy,13.44
+P003,Chicken Breast,Meat,S001,Downtown,11-07-2025,79,12,2,08-07-2025,Sunny,10.56
+P006,Salmon,Seafood,S002,Uptown,23-07-2025,88,7,2,20-07-2025,Cloudy,12.95
+P006,Salmon,Seafood,S003,Suburb,24-07-2025,58,0,2,21-07-2025,Cloudy,7.56
+P004,Lettuce,Produce,S001,Downtown,19-07-2025,61,0,5,16-07-2025,Sunny,3.79
+P005,Strawberries,Produce,S001,Downtown,22-07-2025,89,15,4,15-07-2025,Rainy,11.57
+P004,Lettuce,Produce,S002,Uptown,27-07-2025,62,7,5,19-07-2025,Sunny,3.93
+P001,Milk,Dairy,S002,Uptown,18-07-2025,57,4,4,08-07-2025,Snowy,2.92
+P010,Shrimp,Seafood,S002,Uptown,26-07-2025,52,15,2,19-07-2025,Sunny,6.37
+P007,Eggs,Dairy,S003,Suburb,12-07-2025,99,13,4,08-07-2025,Sunny,11.9
+P008,Ground Beef,Meat,S003,Suburb,23-07-2025,44,9,2,18-07-2025,Sunny,3.93
+P010,Shrimp,Seafood,S002,Uptown,21-07-2025,87,2,2,11-07-2025,Snowy,3.53
+P010,Shrimp,Seafood,S003,Suburb,16-07-2025,22,3,2,13-07-2025,Rainy,5.93
+P005,Strawberries,Produce,S001,Downtown,11-07-2025,70,7,4,08-07-2025,Sunny,8.72
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P006,Salmon,Seafood,S003,Suburb,24-07-2025,58,0,2,21-07-2025,Cloudy,7.56
+P001,Milk,Dairy,S003,Suburb,22-07-2025,99,11,4,18-07-2025,Cloudy,6.94
+P008,Ground Beef,Meat,S002,Uptown,27-07-2025,97,10,2,17-07-2025,Snowy,9.86
+P001,Milk,Dairy,S002,Uptown,22-07-2025,52,8,4,19-07-2025,Sunny,10.37
+P005,Strawberries,Produce,S001,Downtown,15-07-2025,60,9,4,11-07-2025,Snowy,5.85
+P003,Chicken Breast,Meat,S003,Suburb,26-07-2025,20,5,2,18-07-2025,Sunny,8.92
+P004,Lettuce,Produce,S001,Downtown,16-07-2025,79,1,5,08-07-2025,Snowy,7.76
+P010,Shrimp,Seafood,S003,Suburb,16-07-2025,22,3,2,13-07-2025,Rainy,5.93
+P004,Lettuce,Produce,S003,Suburb,28-07-2025,99,6,5,21-07-2025,Rainy,14.81
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,100,9,4,20-07-2025,Sunny,4.95
+P004,Lettuce,Produce,S001,Downtown,19-07-2025,61,0,5,16-07-2025,Sunny,3.79
+P003,Chicken Breast,Meat,S001,Downtown,18-07-2025,47,11,2,15-07-2025,Cloudy,13.22
+P004,Lettuce,Produce,S003,Suburb,14-07-2025,86,3,5,11-07-2025,Rainy,7.77
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P009,Spinach,Produce,S003,Suburb,19-07-2025,63,0,5,16-07-2025,Rainy,11.17
+P006,Salmon,Seafood,S001,Downtown,25-07-2025,91,11,2,20-07-2025,Rainy,13.08
+P007,Eggs,Dairy,S003,Suburb,19-07-2025,46,2,4,10-07-2025,Sunny,5.03
+P009,Spinach,Produce,S002,Uptown,24-07-2025,72,3,5,20-07-2025,Snowy,6.57
+P004,Lettuce,Produce,S002,Uptown,18-07-2025,22,10,5,13-07-2025,Snowy,5.09
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P007,Eggs,Dairy,S002,Uptown,20-07-2025,77,13,4,15-07-2025,Rainy,7.58
+P007,Eggs,Dairy,S003,Suburb,22-07-2025,77,7,4,12-07-2025,Rainy,13.35
+P006,Salmon,Seafood,S003,Suburb,25-07-2025,42,6,2,15-07-2025,Cloudy,11.74
+P002,Yogurt,Dairy,S001,Downtown,16-07-2025,93,4,4,10-07-2025,Cloudy,13.37
+P003,Chicken Breast,Meat,S001,Downtown,28-07-2025,53,3,2,20-07-2025,Sunny,14.93
+P004,Lettuce,Produce,S003,Suburb,24-07-2025,47,3,5,20-07-2025,Rainy,9.65
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,45,4,4,15-07-2025,Snowy,8.58
+P001,Milk,Dairy,S002,Uptown,24-07-2025,71,1,4,20-07-2025,Sunny,5.63
+P006,Salmon,Seafood,S003,Suburb,24-07-2025,20,4,2,16-07-2025,Sunny,12.9
+P005,Strawberries,Produce,S002,Uptown,30-07-2025,28,8,4,20-07-2025,Rainy,14.84
+P007,Eggs,Dairy,S001,Downtown,18-07-2025,30,15,4,10-07-2025,Sunny,14.25
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,61,2,2,16-07-2025,Rainy,8.31
+P003,Chicken Breast,Meat,S002,Uptown,24-07-2025,88,8,2,20-07-2025,Snowy,12.1
+P005,Strawberries,Produce,S003,Suburb,29-07-2025,41,1,4,19-07-2025,Rainy,4.41
+P002,Yogurt,Dairy,S001,Downtown,24-07-2025,34,9,4,17-07-2025,Rainy,13.64
+P007,Eggs,Dairy,S001,Downtown,30-07-2025,73,6,4,20-07-2025,Rainy,10.27
+P001,Milk,Dairy,S002,Uptown,22-07-2025,52,8,4,19-07-2025,Sunny,10.37
+P009,Spinach,Produce,S002,Uptown,27-07-2025,69,9,5,18-07-2025,Sunny,7.2
+P003,Chicken Breast,Meat,S002,Uptown,15-07-2025,78,8,2,12-07-2025,Cloudy,9.56
+P009,Spinach,Produce,S001,Downtown,20-07-2025,100,8,5,11-07-2025,Cloudy,11.59
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,45,4,4,15-07-2025,Snowy,8.58
+P004,Lettuce,Produce,S003,Suburb,21-07-2025,58,15,5,13-07-2025,Snowy,10.09
+P006,Salmon,Seafood,S002,Uptown,20-07-2025,45,13,2,10-07-2025,Snowy,13.9
+P005,Strawberries,Produce,S003,Suburb,24-07-2025,37,12,4,18-07-2025,Snowy,8.51
+P005,Strawberries,Produce,S003,Suburb,20-07-2025,39,13,4,12-07-2025,Sunny,3.19
+P009,Spinach,Produce,S002,Uptown,14-07-2025,87,5,5,09-07-2025,Cloudy,9.09
+P007,Eggs,Dairy,S002,Uptown,16-07-2025,24,0,4,10-07-2025,Snowy,4.68
+P010,Shrimp,Seafood,S003,Suburb,16-07-2025,22,3,2,13-07-2025,Rainy,5.93
+P008,Ground Beef,Meat,S002,Uptown,25-07-2025,66,6,2,16-07-2025,Sunny,7.08
+P007,Eggs,Dairy,S001,Downtown,11-07-2025,55,6,4,08-07-2025,Sunny,2.59
+P001,Milk,Dairy,S001,Downtown,14-07-2025,35,6,4,11-07-2025,Rainy,4.1
+P009,Spinach,Produce,S003,Suburb,16-07-2025,32,4,5,12-07-2025,Sunny,14.73
+P010,Shrimp,Seafood,S003,Suburb,21-07-2025,84,15,2,15-07-2025,Rainy,2.78
+P002,Yogurt,Dairy,S001,Downtown,24-07-2025,26,4,4,14-07-2025,Sunny,6.5
+P001,Milk,Dairy,S001,Downtown,20-07-2025,71,9,4,14-07-2025,Rainy,4.89
+P002,Yogurt,Dairy,S001,Downtown,19-07-2025,28,13,4,09-07-2025,Sunny,8.9
+P006,Salmon,Seafood,S002,Uptown,28-07-2025,34,2,2,21-07-2025,Sunny,8.15
+P001,Milk,Dairy,S003,Suburb,24-07-2025,69,13,4,21-07-2025,Snowy,5.98
+P003,Chicken Breast,Meat,S001,Downtown,16-07-2025,42,1,2,13-07-2025,Snowy,14.14
+P007,Eggs,Dairy,S001,Downtown,29-07-2025,29,4,4,21-07-2025,Snowy,10.18
+P010,Shrimp,Seafood,S003,Suburb,16-07-2025,79,9,2,12-07-2025,Snowy,4.19
+P008,Ground Beef,Meat,S003,Suburb,27-07-2025,84,1,2,21-07-2025,Snowy,6.84
+P010,Shrimp,Seafood,S001,Downtown,26-07-2025,96,9,2,18-07-2025,Cloudy,2.39
+P008,Ground Beef,Meat,S001,Downtown,28-07-2025,53,12,2,19-07-2025,Rainy,12.97
+P008,Ground Beef,Meat,S001,Downtown,24-07-2025,41,12,2,21-07-2025,Rainy,9.95
+P010,Shrimp,Seafood,S001,Downtown,14-07-2025,21,6,2,08-07-2025,Cloudy,8.42
+P008,Ground Beef,Meat,S003,Suburb,29-07-2025,98,0,2,20-07-2025,Sunny,9.75
+P009,Spinach,Produce,S002,Uptown,18-07-2025,98,6,5,15-07-2025,Sunny,3.58
+P010,Shrimp,Seafood,S002,Uptown,14-07-2025,38,9,2,10-07-2025,Rainy,2.69
+P003,Chicken Breast,Meat,S001,Downtown,18-07-2025,47,11,2,15-07-2025,Cloudy,13.22
+P009,Spinach,Produce,S003,Suburb,23-07-2025,38,6,5,18-07-2025,Snowy,14.9
+P001,Milk,Dairy,S002,Uptown,23-07-2025,93,8,4,13-07-2025,Snowy,8.03
+P003,Chicken Breast,Meat,S003,Suburb,26-07-2025,85,7,2,17-07-2025,Cloudy,4.07
+P005,Strawberries,Produce,S001,Downtown,11-07-2025,70,7,4,08-07-2025,Sunny,8.72
+P006,Salmon,Seafood,S003,Suburb,19-07-2025,64,12,2,12-07-2025,Cloudy,3.27
+P009,Spinach,Produce,S002,Uptown,18-07-2025,98,6,5,15-07-2025,Sunny,3.58
+P004,Lettuce,Produce,S001,Downtown,19-07-2025,61,0,5,16-07-2025,Sunny,3.79
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P007,Eggs,Dairy,S001,Downtown,11-07-2025,55,6,4,08-07-2025,Sunny,2.59
+P006,Salmon,Seafood,S002,Uptown,17-07-2025,31,6,2,09-07-2025,Cloudy,10.09
+P004,Lettuce,Produce,S003,Suburb,12-07-2025,93,0,5,09-07-2025,Snowy,14.78
+P008,Ground Beef,Meat,S003,Suburb,20-07-2025,42,15,2,11-07-2025,Cloudy,7.99
+P003,Chicken Breast,Meat,S001,Downtown,11-07-2025,79,12,2,08-07-2025,Sunny,10.56
+P003,Chicken Breast,Meat,S001,Downtown,14-07-2025,44,10,2,10-07-2025,Snowy,12.83
+P008,Ground Beef,Meat,S003,Suburb,20-07-2025,66,5,2,15-07-2025,Sunny,14.69
+P008,Ground Beef,Meat,S001,Downtown,25-07-2025,30,12,2,17-07-2025,Rainy,4.9
+P002,Yogurt,Dairy,S003,Suburb,13-07-2025,63,14,4,10-07-2025,Snowy,7.64
+P004,Lettuce,Produce,S003,Suburb,12-07-2025,93,0,5,09-07-2025,Snowy,14.78
+P004,Lettuce,Produce,S003,Suburb,14-07-2025,86,3,5,11-07-2025,Rainy,7.77
+P008,Ground Beef,Meat,S003,Suburb,12-07-2025,85,8,2,08-07-2025,Rainy,10.73
+P003,Chicken Breast,Meat,S001,Downtown,16-07-2025,42,1,2,13-07-2025,Snowy,14.14
+P002,Yogurt,Dairy,S002,Uptown,21-07-2025,81,11,4,17-07-2025,Rainy,12.13
+P001,Milk,Dairy,S003,Suburb,20-07-2025,68,3,4,17-07-2025,Sunny,4.81
+P001,Milk,Dairy,S001,Downtown,14-07-2025,35,6,4,11-07-2025,Rainy,4.1
+P004,Lettuce,Produce,S003,Suburb,26-07-2025,97,12,5,19-07-2025,Rainy,12.37
+P001,Milk,Dairy,S001,Downtown,20-07-2025,76,2,4,12-07-2025,Sunny,6.68
+P010,Shrimp,Seafood,S003,Suburb,14-07-2025,82,15,2,10-07-2025,Snowy,3.98
+P008,Ground Beef,Meat,S003,Suburb,17-07-2025,49,9,2,09-07-2025,Snowy,4.92
+P009,Spinach,Produce,S002,Uptown,18-07-2025,98,6,5,15-07-2025,Sunny,3.58
+P008,Ground Beef,Meat,S002,Uptown,17-07-2025,61,2,2,14-07-2025,Sunny,11.04
+P004,Lettuce,Produce,S001,Downtown,19-07-2025,61,0,5,16-07-2025,Sunny,3.79
+P001,Milk,Dairy,S002,Uptown,19-07-2025,44,12,4,15-07-2025,Sunny,4.1
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,45,4,4,15-07-2025,Snowy,8.58
+P009,Spinach,Produce,S003,Suburb,19-07-2025,63,0,5,16-07-2025,Rainy,11.17
+P001,Milk,Dairy,S003,Suburb,20-07-2025,68,3,4,17-07-2025,Sunny,4.81
+P009,Spinach,Produce,S003,Suburb,19-07-2025,63,0,5,16-07-2025,Rainy,11.17
+P004,Lettuce,Produce,S001,Downtown,17-07-2025,69,3,5,13-07-2025,Cloudy,3.51
+P003,Chicken Breast,Meat,S001,Downtown,17-07-2025,72,15,2,14-07-2025,Snowy,8.7
+P008,Ground Beef,Meat,S002,Uptown,17-07-2025,61,2,2,14-07-2025,Sunny,11.04
+P002,Yogurt,Dairy,S003,Suburb,17-07-2025,73,7,4,08-07-2025,Rainy,12.65
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,45,4,4,15-07-2025,Snowy,8.58
+P005,Strawberries,Produce,S001,Downtown,23-07-2025,51,9,4,13-07-2025,Sunny,3.46
+P007,Eggs,Dairy,S001,Downtown,11-07-2025,55,6,4,08-07-2025,Sunny,2.59
+P004,Lettuce,Produce,S001,Downtown,22-07-2025,57,11,5,18-07-2025,Sunny,12.32
+P003,Chicken Breast,Meat,S001,Downtown,11-07-2025,79,12,2,08-07-2025,Sunny,10.56
+P002,Yogurt,Dairy,S001,Downtown,16-07-2025,80,9,4,11-07-2025,Sunny,7.3
+P008,Ground Beef,Meat,S001,Downtown,19-07-2025,32,13,2,10-07-2025,Sunny,12.15
+P001,Milk,Dairy,S002,Uptown,22-07-2025,52,8,4,19-07-2025,Sunny,10.37
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,100,9,4,20-07-2025,Sunny,4.95
+P003,Chicken Breast,Meat,S001,Downtown,13-07-2025,56,7,2,09-07-2025,Rainy,6.77
+P009,Spinach,Produce,S003,Suburb,19-07-2025,63,0,5,16-07-2025,Rainy,11.17
+P010,Shrimp,Seafood,S002,Uptown,25-07-2025,62,14,2,18-07-2025,Snowy,6.38
+P002,Yogurt,Dairy,S001,Downtown,28-07-2025,27,0,4,20-07-2025,Cloudy,8.99
+P006,Salmon,Seafood,S001,Downtown,29-07-2025,23,1,2,21-07-2025,Cloudy,3.32
+P002,Yogurt,Dairy,S003,Suburb,13-07-2025,63,14,4,10-07-2025,Snowy,7.64
+P004,Lettuce,Produce,S003,Suburb,20-07-2025,83,9,5,14-07-2025,Sunny,14.46
+P003,Chicken Breast,Meat,S002,Uptown,17-07-2025,97,11,2,14-07-2025,Sunny,8.6
+P003,Chicken Breast,Meat,S001,Downtown,18-07-2025,47,11,2,15-07-2025,Cloudy,13.22
+P005,Strawberries,Produce,S002,Uptown,22-07-2025,96,12,4,19-07-2025,Sunny,8.84
+P009,Spinach,Produce,S001,Downtown,24-07-2025,64,6,5,16-07-2025,Cloudy,9.48
+P002,Yogurt,Dairy,S001,Downtown,15-07-2025,84,14,4,12-07-2025,Cloudy,2.87
+P006,Salmon,Seafood,S001,Downtown,12-07-2025,45,11,2,09-07-2025,Cloudy,14.94
+P001,Milk,Dairy,S001,Downtown,25-07-2025,90,2,4,19-07-2025,Rainy,9.88
+P006,Salmon,Seafood,S003,Suburb,24-07-2025,58,0,2,21-07-2025,Cloudy,7.56
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,45,4,4,15-07-2025,Snowy,8.58
+P001,Milk,Dairy,S001,Downtown,14-07-2025,35,6,4,11-07-2025,Rainy,4.1
+P003,Chicken Breast,Meat,S003,Suburb,19-07-2025,100,12,2,15-07-2025,Sunny,7.5
+P003,Chicken Breast,Meat,S003,Suburb,17-07-2025,82,10,2,14-07-2025,Snowy,2.18
+P003,Chicken Breast,Meat,S001,Downtown,11-07-2025,79,12,2,08-07-2025,Sunny,10.56
+P005,Strawberries,Produce,S002,Uptown,19-07-2025,78,11,4,14-07-2025,Cloudy,3.78
+P009,Spinach,Produce,S003,Suburb,19-07-2025,63,0,5,16-07-2025,Rainy,11.17
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,99,1,2,19-07-2025,Rainy,9.81
+P009,Spinach,Produce,S003,Suburb,22-07-2025,70,4,5,13-07-2025,Snowy,14.41
+P006,Salmon,Seafood,S001,Downtown,25-07-2025,41,9,2,17-07-2025,Sunny,4.43
+P003,Chicken Breast,Meat,S001,Downtown,18-07-2025,47,11,2,15-07-2025,Cloudy,13.22
+P001,Milk,Dairy,S003,Suburb,18-07-2025,22,12,4,10-07-2025,Cloudy,4.24
+P003,Chicken Breast,Meat,S002,Uptown,17-07-2025,97,11,2,14-07-2025,Sunny,8.6
+P004,Lettuce,Produce,S002,Uptown,28-07-2025,84,4,5,21-07-2025,Rainy,5.93
+P003,Chicken Breast,Meat,S003,Suburb,16-07-2025,49,6,2,11-07-2025,Snowy,14.89
+P006,Salmon,Seafood,S001,Downtown,17-07-2025,64,15,2,12-07-2025,Rainy,11.26
+P003,Chicken Breast,Meat,S001,Downtown,16-07-2025,42,1,2,13-07-2025,Snowy,14.14
+P001,Milk,Dairy,S002,Uptown,16-07-2025,69,8,4,11-07-2025,Cloudy,12.52
+P002,Yogurt,Dairy,S003,Suburb,28-07-2025,96,1,4,21-07-2025,Sunny,9.47
+P008,Ground Beef,Meat,S001,Downtown,17-07-2025,27,6,2,11-07-2025,Cloudy,13.16
+P003,Chicken Breast,Meat,S001,Downtown,18-07-2025,47,11,2,15-07-2025,Cloudy,13.22
+P004,Lettuce,Produce,S001,Downtown,19-07-2025,61,0,5,16-07-2025,Sunny,3.79
+P004,Lettuce,Produce,S001,Downtown,19-07-2025,61,0,5,16-07-2025,Sunny,3.79
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,61,2,2,16-07-2025,Rainy,8.31
+P001,Milk,Dairy,S003,Suburb,20-07-2025,68,3,4,17-07-2025,Sunny,4.81
+P005,Strawberries,Produce,S002,Uptown,15-07-2025,42,6,4,08-07-2025,Rainy,13.16
+P008,Ground Beef,Meat,S002,Uptown,17-07-2025,35,6,2,09-07-2025,Sunny,13.5
+P007,Eggs,Dairy,S002,Uptown,18-07-2025,93,4,4,09-07-2025,Snowy,9.33
+P005,Strawberries,Produce,S001,Downtown,22-07-2025,41,11,4,14-07-2025,Cloudy,3.86
+P007,Eggs,Dairy,S001,Downtown,11-07-2025,55,6,4,08-07-2025,Sunny,2.59
+P006,Salmon,Seafood,S002,Uptown,23-07-2025,88,7,2,20-07-2025,Cloudy,12.95
+P007,Eggs,Dairy,S001,Downtown,11-07-2025,55,6,4,08-07-2025,Sunny,2.59
+P007,Eggs,Dairy,S002,Uptown,22-07-2025,75,3,4,14-07-2025,Sunny,4.91
+P005,Strawberries,Produce,S002,Uptown,22-07-2025,96,12,4,19-07-2025,Sunny,8.84
+P001,Milk,Dairy,S003,Suburb,17-07-2025,56,4,4,14-07-2025,Rainy,7.43
+P006,Salmon,Seafood,S002,Uptown,24-07-2025,76,4,2,14-07-2025,Rainy,7.05
+P006,Salmon,Seafood,S003,Suburb,24-07-2025,58,0,2,21-07-2025,Cloudy,7.56
+P010,Shrimp,Seafood,S001,Downtown,15-07-2025,21,0,2,12-07-2025,Cloudy,13.53
+P005,Strawberries,Produce,S002,Uptown,24-07-2025,81,0,4,17-07-2025,Rainy,5.92
+P007,Eggs,Dairy,S003,Suburb,26-07-2025,47,1,4,19-07-2025,Cloudy,10.61
+P003,Chicken Breast,Meat,S003,Suburb,17-07-2025,82,10,2,14-07-2025,Snowy,2.18
+P009,Spinach,Produce,S002,Uptown,15-07-2025,71,8,5,08-07-2025,Sunny,6.96
+P008,Ground Beef,Meat,S001,Downtown,24-07-2025,41,12,2,21-07-2025,Rainy,9.95
+P004,Lettuce,Produce,S002,Uptown,21-07-2025,92,7,5,17-07-2025,Sunny,14.92
+P005,Strawberries,Produce,S002,Uptown,22-07-2025,96,12,4,19-07-2025,Sunny,8.84
+P009,Spinach,Produce,S003,Suburb,25-07-2025,68,1,5,20-07-2025,Sunny,13.9
+P005,Strawberries,Produce,S001,Downtown,22-07-2025,26,13,4,19-07-2025,Rainy,9.64
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P009,Spinach,Produce,S003,Suburb,29-07-2025,97,5,5,21-07-2025,Rainy,4.7
+P009,Spinach,Produce,S001,Downtown,24-07-2025,31,0,5,20-07-2025,Cloudy,12.76
+P010,Shrimp,Seafood,S001,Downtown,26-07-2025,44,2,2,19-07-2025,Cloudy,2.5
+P004,Lettuce,Produce,S003,Suburb,12-07-2025,93,0,5,09-07-2025,Snowy,14.78
+P003,Chicken Breast,Meat,S002,Uptown,14-07-2025,48,2,2,08-07-2025,Snowy,14.57
+P007,Eggs,Dairy,S001,Downtown,21-07-2025,92,8,4,17-07-2025,Rainy,2.53
+P006,Salmon,Seafood,S003,Suburb,16-07-2025,49,3,2,08-07-2025,Snowy,3.36
+P007,Eggs,Dairy,S001,Downtown,24-07-2025,67,10,4,16-07-2025,Rainy,5.35
+P003,Chicken Breast,Meat,S002,Uptown,15-07-2025,78,8,2,12-07-2025,Cloudy,9.56
+P004,Lettuce,Produce,S003,Suburb,12-07-2025,93,0,5,09-07-2025,Snowy,14.78
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,61,2,2,16-07-2025,Rainy,8.31
+P001,Milk,Dairy,S001,Downtown,14-07-2025,35,6,4,11-07-2025,Rainy,4.1
+P010,Shrimp,Seafood,S003,Suburb,24-07-2025,46,0,2,21-07-2025,Cloudy,5.04
+P006,Salmon,Seafood,S002,Uptown,23-07-2025,45,3,2,15-07-2025,Snowy,6.05
+P006,Salmon,Seafood,S001,Downtown,16-07-2025,74,11,2,13-07-2025,Cloudy,5.55
+P002,Yogurt,Dairy,S002,Uptown,21-07-2025,92,2,4,11-07-2025,Rainy,10.24
+P010,Shrimp,Seafood,S001,Downtown,30-07-2025,87,13,2,21-07-2025,Sunny,11.7
+P009,Spinach,Produce,S003,Suburb,29-07-2025,77,13,5,19-07-2025,Rainy,8.3
+P003,Chicken Breast,Meat,S003,Suburb,12-07-2025,34,5,2,09-07-2025,Sunny,12.89
+P003,Chicken Breast,Meat,S002,Uptown,23-07-2025,27,5,2,18-07-2025,Cloudy,4.26
+P006,Salmon,Seafood,S003,Suburb,24-07-2025,42,8,2,14-07-2025,Cloudy,7.47
+P003,Chicken Breast,Meat,S002,Uptown,17-07-2025,97,11,2,14-07-2025,Sunny,8.6
+P005,Strawberries,Produce,S001,Downtown,26-07-2025,87,8,4,21-07-2025,Snowy,8.98
+P009,Spinach,Produce,S002,Uptown,23-07-2025,50,7,5,13-07-2025,Cloudy,11.98
+P003,Chicken Breast,Meat,S003,Suburb,17-07-2025,84,13,2,10-07-2025,Rainy,6.67
+P003,Chicken Breast,Meat,S001,Downtown,16-07-2025,42,1,2,13-07-2025,Snowy,14.14
+P006,Salmon,Seafood,S001,Downtown,25-07-2025,45,6,2,18-07-2025,Rainy,8.85
+P005,Strawberries,Produce,S002,Uptown,18-07-2025,46,11,4,10-07-2025,Cloudy,3.86
+P005,Strawberries,Produce,S001,Downtown,11-07-2025,70,7,4,08-07-2025,Sunny,8.72
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,72,2,2,14-07-2025,Rainy,14.23
+P010,Shrimp,Seafood,S003,Suburb,26-07-2025,97,11,2,17-07-2025,Cloudy,12.14
+P003,Chicken Breast,Meat,S003,Suburb,20-07-2025,72,9,2,16-07-2025,Cloudy,10.58
+P007,Eggs,Dairy,S001,Downtown,19-07-2025,89,11,4,11-07-2025,Rainy,6.86
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P009,Spinach,Produce,S001,Downtown,20-07-2025,34,1,5,12-07-2025,Rainy,3.77
+P009,Spinach,Produce,S002,Uptown,18-07-2025,97,6,5,12-07-2025,Sunny,13.69
+P003,Chicken Breast,Meat,S003,Suburb,17-07-2025,82,10,2,14-07-2025,Snowy,2.18
+P008,Ground Beef,Meat,S002,Uptown,28-07-2025,45,0,2,18-07-2025,Snowy,12.22
+P005,Strawberries,Produce,S003,Suburb,22-07-2025,32,5,4,16-07-2025,Sunny,9.55
+P001,Milk,Dairy,S001,Downtown,16-07-2025,91,14,4,08-07-2025,Sunny,11.27
+P003,Chicken Breast,Meat,S003,Suburb,12-07-2025,34,5,2,09-07-2025,Sunny,12.89
+P003,Chicken Breast,Meat,S003,Suburb,28-07-2025,32,8,2,20-07-2025,Rainy,10.8
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,100,9,4,20-07-2025,Sunny,4.95
+P006,Salmon,Seafood,S001,Downtown,12-07-2025,45,11,2,09-07-2025,Cloudy,14.94
+P007,Eggs,Dairy,S001,Downtown,22-07-2025,60,5,4,18-07-2025,Sunny,4.82
+P006,Salmon,Seafood,S003,Suburb,24-07-2025,58,0,2,21-07-2025,Cloudy,7.56
+P008,Ground Beef,Meat,S001,Downtown,22-07-2025,48,4,2,12-07-2025,Rainy,10.66
+P004,Lettuce,Produce,S002,Uptown,20-07-2025,27,1,5,16-07-2025,Sunny,4.48
+P005,Strawberries,Produce,S001,Downtown,11-07-2025,70,7,4,08-07-2025,Sunny,8.72
+P001,Milk,Dairy,S002,Uptown,22-07-2025,52,8,4,19-07-2025,Sunny,10.37
+P010,Shrimp,Seafood,S003,Suburb,24-07-2025,46,0,2,21-07-2025,Cloudy,5.04
+P003,Chicken Breast,Meat,S001,Downtown,22-07-2025,30,2,2,18-07-2025,Snowy,2.5
+P009,Spinach,Produce,S002,Uptown,24-07-2025,74,8,5,19-07-2025,Rainy,2.01
+P009,Spinach,Produce,S003,Suburb,19-07-2025,63,0,5,16-07-2025,Rainy,11.17
+P010,Shrimp,Seafood,S001,Downtown,18-07-2025,55,9,2,13-07-2025,Sunny,13.12
+P006,Salmon,Seafood,S003,Suburb,24-07-2025,58,0,2,21-07-2025,Cloudy,7.56
+P001,Milk,Dairy,S003,Suburb,20-07-2025,68,3,4,17-07-2025,Sunny,4.81
+P003,Chicken Breast,Meat,S002,Uptown,15-07-2025,78,8,2,12-07-2025,Cloudy,9.56
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,61,2,2,16-07-2025,Rainy,8.31
+P007,Eggs,Dairy,S003,Suburb,24-07-2025,42,1,4,17-07-2025,Sunny,13
+P001,Milk,Dairy,S003,Suburb,20-07-2025,68,3,4,17-07-2025,Sunny,4.81
+P006,Salmon,Seafood,S001,Downtown,23-07-2025,24,2,2,19-07-2025,Cloudy,8.78
+P009,Spinach,Produce,S001,Downtown,26-07-2025,47,12,5,19-07-2025,Sunny,5.47
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,45,4,4,15-07-2025,Snowy,8.58
+P001,Milk,Dairy,S003,Suburb,14-07-2025,59,8,4,09-07-2025,Snowy,6.86
+P002,Yogurt,Dairy,S003,Suburb,24-07-2025,92,7,4,20-07-2025,Cloudy,2.75
+P003,Chicken Breast,Meat,S001,Downtown,16-07-2025,42,1,2,13-07-2025,Snowy,14.14
+P009,Spinach,Produce,S002,Uptown,23-07-2025,29,4,5,17-07-2025,Cloudy,14.19
+P008,Ground Beef,Meat,S001,Downtown,20-07-2025,54,14,2,15-07-2025,Sunny,14.64
+P001,Milk,Dairy,S003,Suburb,24-07-2025,69,13,4,21-07-2025,Snowy,5.98
+P010,Shrimp,Seafood,S003,Suburb,24-07-2025,46,0,2,21-07-2025,Cloudy,5.04
+P007,Eggs,Dairy,S003,Suburb,20-07-2025,63,2,4,11-07-2025,Rainy,13.49
+P006,Salmon,Seafood,S001,Downtown,18-07-2025,24,3,2,10-07-2025,Rainy,9.02
+P002,Yogurt,Dairy,S003,Suburb,13-07-2025,63,14,4,10-07-2025,Snowy,7.64
+P003,Chicken Breast,Meat,S001,Downtown,17-07-2025,72,15,2,14-07-2025,Snowy,8.7
+P009,Spinach,Produce,S002,Uptown,20-07-2025,70,1,5,11-07-2025,Rainy,14.03
+P006,Salmon,Seafood,S002,Uptown,23-07-2025,88,7,2,20-07-2025,Cloudy,12.95
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P010,Shrimp,Seafood,S003,Suburb,24-07-2025,46,0,2,21-07-2025,Cloudy,5.04
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P009,Spinach,Produce,S002,Uptown,18-07-2025,92,10,5,14-07-2025,Sunny,3.45
+P003,Chicken Breast,Meat,S001,Downtown,25-07-2025,93,7,2,19-07-2025,Rainy,9.3
+P007,Eggs,Dairy,S001,Downtown,11-07-2025,55,6,4,08-07-2025,Sunny,2.59
+P003,Chicken Breast,Meat,S001,Downtown,16-07-2025,42,1,2,13-07-2025,Snowy,14.14
+P010,Shrimp,Seafood,S001,Downtown,15-07-2025,21,0,2,12-07-2025,Cloudy,13.53
+P005,Strawberries,Produce,S002,Uptown,22-07-2025,29,5,4,13-07-2025,Cloudy,3.68
+P008,Ground Beef,Meat,S002,Uptown,19-07-2025,34,3,2,12-07-2025,Rainy,10.01
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P007,Eggs,Dairy,S003,Suburb,22-07-2025,59,14,4,14-07-2025,Rainy,11.09
+P002,Yogurt,Dairy,S001,Downtown,15-07-2025,84,14,4,12-07-2025,Cloudy,2.87
+P005,Strawberries,Produce,S002,Uptown,22-07-2025,96,12,4,19-07-2025,Sunny,8.84
+P004,Lettuce,Produce,S003,Suburb,12-07-2025,93,0,5,09-07-2025,Snowy,14.78
+P003,Chicken Breast,Meat,S001,Downtown,16-07-2025,42,1,2,13-07-2025,Snowy,14.14
+P001,Milk,Dairy,S002,Uptown,22-07-2025,52,8,4,19-07-2025,Sunny,10.37
+P002,Yogurt,Dairy,S003,Suburb,28-07-2025,99,0,4,19-07-2025,Rainy,14.77
+P006,Salmon,Seafood,S003,Suburb,25-07-2025,21,3,2,20-07-2025,Sunny,2.43
+P005,Strawberries,Produce,S001,Downtown,11-07-2025,70,7,4,08-07-2025,Sunny,8.72
+P008,Ground Beef,Meat,S001,Downtown,19-07-2025,77,14,2,13-07-2025,Snowy,6.35
+P010,Shrimp,Seafood,S001,Downtown,15-07-2025,21,0,2,12-07-2025,Cloudy,13.53
+P007,Eggs,Dairy,S001,Downtown,21-07-2025,58,3,4,13-07-2025,Snowy,3.75
+P005,Strawberries,Produce,S001,Downtown,11-07-2025,70,7,4,08-07-2025,Sunny,8.72
+P003,Chicken Breast,Meat,S001,Downtown,11-07-2025,79,12,2,08-07-2025,Sunny,10.56
+P001,Milk,Dairy,S003,Suburb,25-07-2025,86,7,4,19-07-2025,Snowy,13.11
+P003,Chicken Breast,Meat,S003,Suburb,18-07-2025,48,3,2,08-07-2025,Rainy,13.67
+P010,Shrimp,Seafood,S001,Downtown,24-07-2025,48,8,2,14-07-2025,Sunny,7.32
+P010,Shrimp,Seafood,S003,Suburb,16-07-2025,22,3,2,13-07-2025,Rainy,5.93
+P002,Yogurt,Dairy,S002,Uptown,23-07-2025,83,11,4,19-07-2025,Cloudy,12.16
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,45,4,4,15-07-2025,Snowy,8.58
+P003,Chicken Breast,Meat,S001,Downtown,18-07-2025,47,11,2,15-07-2025,Cloudy,13.22
+P006,Salmon,Seafood,S002,Uptown,17-07-2025,99,6,2,08-07-2025,Snowy,4.08
+P010,Shrimp,Seafood,S003,Suburb,16-07-2025,22,3,2,13-07-2025,Rainy,5.93
+P006,Salmon,Seafood,S001,Downtown,16-07-2025,74,11,2,13-07-2025,Cloudy,5.55
+P004,Lettuce,Produce,S001,Downtown,28-07-2025,25,1,5,19-07-2025,Sunny,14.31
+P007,Eggs,Dairy,S003,Suburb,29-07-2025,97,8,4,20-07-2025,Snowy,14.42
+P009,Spinach,Produce,S003,Suburb,14-07-2025,75,2,5,08-07-2025,Rainy,14.21
+P001,Milk,Dairy,S003,Suburb,17-07-2025,56,4,4,14-07-2025,Rainy,7.43
+P007,Eggs,Dairy,S001,Downtown,21-07-2025,60,12,4,14-07-2025,Rainy,7.44
+P003,Chicken Breast,Meat,S002,Uptown,18-07-2025,22,3,2,09-07-2025,Cloudy,11.54
+P006,Salmon,Seafood,S003,Suburb,24-07-2025,58,0,2,21-07-2025,Cloudy,7.56
+P003,Chicken Breast,Meat,S001,Downtown,27-07-2025,72,5,2,17-07-2025,Rainy,13.04
+P007,Eggs,Dairy,S003,Suburb,26-07-2025,95,5,4,18-07-2025,Rainy,4.24
+P003,Chicken Breast,Meat,S001,Downtown,18-07-2025,47,11,2,15-07-2025,Cloudy,13.22
+P004,Lettuce,Produce,S001,Downtown,19-07-2025,61,0,5,16-07-2025,Sunny,3.79
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P001,Milk,Dairy,S001,Downtown,23-07-2025,25,3,4,18-07-2025,Snowy,6.09
+P004,Lettuce,Produce,S001,Downtown,19-07-2025,61,0,5,16-07-2025,Sunny,3.79
+P010,Shrimp,Seafood,S002,Uptown,18-07-2025,55,12,2,13-07-2025,Sunny,2.82
+P010,Shrimp,Seafood,S002,Uptown,16-07-2025,71,8,2,12-07-2025,Snowy,10.79
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P002,Yogurt,Dairy,S002,Uptown,26-07-2025,62,8,4,20-07-2025,Sunny,8.27
+P005,Strawberries,Produce,S001,Downtown,11-07-2025,70,7,4,08-07-2025,Sunny,8.72
+P006,Salmon,Seafood,S002,Uptown,22-07-2025,39,12,2,18-07-2025,Snowy,4.62
+P005,Strawberries,Produce,S001,Downtown,22-07-2025,93,5,4,12-07-2025,Rainy,13.59
+P003,Chicken Breast,Meat,S001,Downtown,18-07-2025,47,11,2,15-07-2025,Cloudy,13.22
+P001,Milk,Dairy,S002,Uptown,24-07-2025,32,10,4,14-07-2025,Snowy,11.81
+P003,Chicken Breast,Meat,S001,Downtown,27-07-2025,89,12,2,21-07-2025,Rainy,9.12
+P003,Chicken Breast,Meat,S003,Suburb,17-07-2025,82,10,2,14-07-2025,Snowy,2.18
+P004,Lettuce,Produce,S001,Downtown,14-07-2025,33,15,5,10-07-2025,Snowy,5
+P004,Lettuce,Produce,S003,Suburb,14-07-2025,86,3,5,11-07-2025,Rainy,7.77
+P008,Ground Beef,Meat,S001,Downtown,22-07-2025,32,6,2,16-07-2025,Snowy,12.82
+P009,Spinach,Produce,S001,Downtown,24-07-2025,39,7,5,18-07-2025,Sunny,2.46
+P001,Milk,Dairy,S003,Suburb,12-07-2025,86,4,4,08-07-2025,Sunny,14.5
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P003,Chicken Breast,Meat,S003,Suburb,24-07-2025,68,5,2,19-07-2025,Snowy,9.63
+P003,Chicken Breast,Meat,S002,Uptown,24-07-2025,35,2,2,17-07-2025,Sunny,8.15
+P001,Milk,Dairy,S003,Suburb,20-07-2025,68,3,4,17-07-2025,Sunny,4.81
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P009,Spinach,Produce,S002,Uptown,18-07-2025,98,6,5,15-07-2025,Sunny,3.58
+P002,Yogurt,Dairy,S001,Downtown,22-07-2025,46,12,4,15-07-2025,Cloudy,5.43
+P007,Eggs,Dairy,S001,Downtown,17-07-2025,64,1,4,12-07-2025,Sunny,2.13
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,100,9,4,20-07-2025,Sunny,4.95
+P003,Chicken Breast,Meat,S001,Downtown,17-07-2025,72,15,2,14-07-2025,Snowy,8.7
+P003,Chicken Breast,Meat,S002,Uptown,15-07-2025,92,14,2,11-07-2025,Rainy,7.83
+P010,Shrimp,Seafood,S002,Uptown,23-07-2025,36,1,2,14-07-2025,Sunny,14.69
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,22,0,2,18-07-2025,Snowy,14.73
+P004,Lettuce,Produce,S001,Downtown,19-07-2025,61,0,5,16-07-2025,Sunny,3.79
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,100,9,4,20-07-2025,Sunny,4.95
+P005,Strawberries,Produce,S001,Downtown,11-07-2025,70,7,4,08-07-2025,Sunny,8.72
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,100,9,4,20-07-2025,Sunny,4.95
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,45,4,4,15-07-2025,Snowy,8.58
+P001,Milk,Dairy,S003,Suburb,20-07-2025,68,3,4,17-07-2025,Sunny,4.81
+P009,Spinach,Produce,S001,Downtown,13-07-2025,28,0,5,08-07-2025,Cloudy,2.81
+P010,Shrimp,Seafood,S003,Suburb,16-07-2025,22,3,2,13-07-2025,Rainy,5.93
+P010,Shrimp,Seafood,S002,Uptown,17-07-2025,66,0,2,09-07-2025,Cloudy,7.71
+P006,Salmon,Seafood,S001,Downtown,16-07-2025,74,11,2,13-07-2025,Cloudy,5.55
+P002,Yogurt,Dairy,S003,Suburb,13-07-2025,63,14,4,10-07-2025,Snowy,7.64
+P009,Spinach,Produce,S001,Downtown,20-07-2025,64,8,5,14-07-2025,Cloudy,6.75
+P010,Shrimp,Seafood,S002,Uptown,16-07-2025,56,0,2,08-07-2025,Sunny,14.13
+P005,Strawberries,Produce,S003,Suburb,16-07-2025,51,3,4,09-07-2025,Snowy,13.35
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,100,9,4,20-07-2025,Sunny,4.95
+P010,Shrimp,Seafood,S001,Downtown,15-07-2025,21,0,2,12-07-2025,Cloudy,13.53
+P006,Salmon,Seafood,S001,Downtown,12-07-2025,90,7,2,08-07-2025,Rainy,12.09
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,100,9,4,20-07-2025,Sunny,4.95
+P005,Strawberries,Produce,S001,Downtown,11-07-2025,70,7,4,08-07-2025,Sunny,8.72
+P007,Eggs,Dairy,S002,Uptown,25-07-2025,58,13,4,19-07-2025,Sunny,14.54
+P007,Eggs,Dairy,S001,Downtown,11-07-2025,55,6,4,08-07-2025,Sunny,2.59
+P003,Chicken Breast,Meat,S002,Uptown,17-07-2025,97,11,2,14-07-2025,Sunny,8.6
+P008,Ground Beef,Meat,S001,Downtown,24-07-2025,41,12,2,21-07-2025,Rainy,9.95
+P002,Yogurt,Dairy,S002,Uptown,23-07-2025,68,9,4,18-07-2025,Snowy,10.89
+P005,Strawberries,Produce,S002,Uptown,21-07-2025,37,9,4,11-07-2025,Rainy,2.9
+P004,Lettuce,Produce,S002,Uptown,26-07-2025,96,14,5,18-07-2025,Snowy,2.47
+P004,Lettuce,Produce,S003,Suburb,12-07-2025,93,0,5,09-07-2025,Snowy,14.78
+P001,Milk,Dairy,S002,Uptown,22-07-2025,78,15,4,16-07-2025,Sunny,12.5
+P010,Shrimp,Seafood,S003,Suburb,14-07-2025,99,8,2,08-07-2025,Rainy,4.8
+P010,Shrimp,Seafood,S003,Suburb,16-07-2025,22,3,2,13-07-2025,Rainy,5.93
+P002,Yogurt,Dairy,S003,Suburb,21-07-2025,25,12,4,17-07-2025,Cloudy,8.27
+P010,Shrimp,Seafood,S003,Suburb,14-07-2025,62,1,2,11-07-2025,Snowy,7.09
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,86,12,4,09-07-2025,Sunny,3.67
+P009,Spinach,Produce,S001,Downtown,27-07-2025,37,14,5,21-07-2025,Sunny,14.39
+P005,Strawberries,Produce,S002,Uptown,23-07-2025,24,15,4,16-07-2025,Rainy,6.34
+P002,Yogurt,Dairy,S002,Uptown,18-07-2025,49,12,4,09-07-2025,Snowy,6.07
+P003,Chicken Breast,Meat,S003,Suburb,22-07-2025,45,15,2,13-07-2025,Rainy,14.29
+P004,Lettuce,Produce,S003,Suburb,24-07-2025,64,1,5,16-07-2025,Sunny,10.19
+P004,Lettuce,Produce,S003,Suburb,14-07-2025,86,3,5,11-07-2025,Rainy,7.77
+P010,Shrimp,Seafood,S002,Uptown,26-07-2025,79,0,2,21-07-2025,Sunny,13.46
+P002,Yogurt,Dairy,S003,Suburb,13-07-2025,63,14,4,10-07-2025,Snowy,7.64
+P005,Strawberries,Produce,S002,Uptown,26-07-2025,82,1,4,21-07-2025,Cloudy,6.84
+P001,Milk,Dairy,S001,Downtown,14-07-2025,35,6,4,11-07-2025,Rainy,4.1
+P003,Chicken Breast,Meat,S001,Downtown,11-07-2025,79,12,2,08-07-2025,Sunny,10.56
+P004,Lettuce,Produce,S002,Uptown,18-07-2025,97,4,5,14-07-2025,Snowy,2.03
+P003,Chicken Breast,Meat,S003,Suburb,12-07-2025,34,5,2,09-07-2025,Sunny,12.89
+P001,Milk,Dairy,S003,Suburb,19-07-2025,68,11,4,12-07-2025,Snowy,14.8
+P004,Lettuce,Produce,S003,Suburb,14-07-2025,86,3,5,11-07-2025,Rainy,7.77
+P007,Eggs,Dairy,S001,Downtown,25-07-2025,67,2,4,15-07-2025,Rainy,6.2
+P006,Salmon,Seafood,S001,Downtown,12-07-2025,45,11,2,09-07-2025,Cloudy,14.94
+P001,Milk,Dairy,S002,Uptown,22-07-2025,52,8,4,19-07-2025,Sunny,10.37
+P006,Salmon,Seafood,S001,Downtown,16-07-2025,74,11,2,13-07-2025,Cloudy,5.55
+P006,Salmon,Seafood,S001,Downtown,16-07-2025,74,11,2,13-07-2025,Cloudy,5.55
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P001,Milk,Dairy,S003,Suburb,24-07-2025,69,13,4,21-07-2025,Snowy,5.98
+P008,Ground Beef,Meat,S001,Downtown,24-07-2025,41,12,2,21-07-2025,Rainy,9.95
+P003,Chicken Breast,Meat,S001,Downtown,18-07-2025,47,11,2,15-07-2025,Cloudy,13.22
+P003,Chicken Breast,Meat,S001,Downtown,11-07-2025,79,12,2,08-07-2025,Sunny,10.56
+P008,Ground Beef,Meat,S003,Suburb,22-07-2025,47,5,2,13-07-2025,Snowy,4.15
+P008,Ground Beef,Meat,S002,Uptown,17-07-2025,61,2,2,14-07-2025,Sunny,11.04
+P008,Ground Beef,Meat,S002,Uptown,18-07-2025,45,10,2,13-07-2025,Cloudy,5.53
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,100,9,4,20-07-2025,Sunny,4.95
+P003,Chicken Breast,Meat,S001,Downtown,11-07-2025,79,12,2,08-07-2025,Sunny,10.56
+P009,Spinach,Produce,S002,Uptown,18-07-2025,98,6,5,15-07-2025,Sunny,3.58
+P003,Chicken Breast,Meat,S001,Downtown,21-07-2025,57,15,2,12-07-2025,Rainy,12.2
+P002,Yogurt,Dairy,S002,Uptown,21-07-2025,28,5,4,16-07-2025,Sunny,14.78
+P006,Salmon,Seafood,S003,Suburb,24-07-2025,58,0,2,21-07-2025,Cloudy,7.56
+P002,Yogurt,Dairy,S003,Suburb,21-07-2025,90,10,4,11-07-2025,Snowy,10.17
+P001,Milk,Dairy,S003,Suburb,17-07-2025,56,4,4,14-07-2025,Rainy,7.43
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,61,2,2,16-07-2025,Rainy,8.31
+P002,Yogurt,Dairy,S002,Uptown,22-07-2025,48,9,4,12-07-2025,Rainy,9.98
+P010,Shrimp,Seafood,S003,Suburb,13-07-2025,76,8,2,09-07-2025,Sunny,8.87
+P007,Eggs,Dairy,S002,Uptown,17-07-2025,83,14,4,13-07-2025,Sunny,9.26
+P003,Chicken Breast,Meat,S001,Downtown,18-07-2025,47,11,2,15-07-2025,Cloudy,13.22
+P004,Lettuce,Produce,S003,Suburb,12-07-2025,93,0,5,09-07-2025,Snowy,14.78
+P001,Milk,Dairy,S003,Suburb,25-07-2025,73,1,4,15-07-2025,Rainy,8.42
+P003,Chicken Breast,Meat,S003,Suburb,12-07-2025,34,5,2,09-07-2025,Sunny,12.89
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,61,2,2,16-07-2025,Rainy,8.31
+P002,Yogurt,Dairy,S002,Uptown,15-07-2025,66,0,4,08-07-2025,Snowy,2.43
+P005,Strawberries,Produce,S001,Downtown,11-07-2025,70,7,4,08-07-2025,Sunny,8.72
+P001,Milk,Dairy,S002,Uptown,15-07-2025,38,13,4,09-07-2025,Sunny,2.17
+P006,Salmon,Seafood,S001,Downtown,16-07-2025,74,11,2,13-07-2025,Cloudy,5.55
+P001,Milk,Dairy,S002,Uptown,27-07-2025,55,5,4,17-07-2025,Cloudy,5.39
+P002,Yogurt,Dairy,S001,Downtown,28-07-2025,73,15,4,19-07-2025,Sunny,11.59
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,100,9,4,20-07-2025,Sunny,4.95
+P010,Shrimp,Seafood,S003,Suburb,16-07-2025,22,3,2,13-07-2025,Rainy,5.93
+P010,Shrimp,Seafood,S002,Uptown,27-07-2025,49,2,2,17-07-2025,Rainy,13.8
+P006,Salmon,Seafood,S003,Suburb,28-07-2025,35,14,2,18-07-2025,Sunny,13.75
+P003,Chicken Breast,Meat,S002,Uptown,17-07-2025,97,11,2,14-07-2025,Sunny,8.6
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,35,9,2,13-07-2025,Rainy,10.95
+P002,Yogurt,Dairy,S001,Downtown,15-07-2025,84,14,4,12-07-2025,Cloudy,2.87
+P005,Strawberries,Produce,S001,Downtown,11-07-2025,70,7,4,08-07-2025,Sunny,8.72
+P003,Chicken Breast,Meat,S003,Suburb,12-07-2025,34,5,2,09-07-2025,Sunny,12.89
+P003,Chicken Breast,Meat,S002,Uptown,20-07-2025,91,9,2,13-07-2025,Sunny,4.97
+P002,Yogurt,Dairy,S002,Uptown,22-07-2025,87,6,4,13-07-2025,Snowy,8.66
+P005,Strawberries,Produce,S002,Uptown,22-07-2025,96,12,4,19-07-2025,Sunny,8.84
+P003,Chicken Breast,Meat,S001,Downtown,18-07-2025,47,11,2,15-07-2025,Cloudy,13.22
+P007,Eggs,Dairy,S001,Downtown,11-07-2025,55,6,4,08-07-2025,Sunny,2.59
+P001,Milk,Dairy,S003,Suburb,26-07-2025,47,6,4,20-07-2025,Rainy,6.65
+P001,Milk,Dairy,S001,Downtown,14-07-2025,35,6,4,11-07-2025,Rainy,4.1
+P006,Salmon,Seafood,S003,Suburb,29-07-2025,69,6,2,19-07-2025,Snowy,14.43
+P008,Ground Beef,Meat,S003,Suburb,24-07-2025,22,3,2,14-07-2025,Snowy,10.23
+P007,Eggs,Dairy,S002,Uptown,16-07-2025,45,0,4,12-07-2025,Rainy,11.46
+P008,Ground Beef,Meat,S002,Uptown,17-07-2025,61,2,2,14-07-2025,Sunny,11.04
+P009,Spinach,Produce,S001,Downtown,23-07-2025,97,11,5,13-07-2025,Snowy,2.84
+P001,Milk,Dairy,S003,Suburb,20-07-2025,68,3,4,17-07-2025,Sunny,4.81
+P010,Shrimp,Seafood,S001,Downtown,21-07-2025,76,0,2,15-07-2025,Sunny,2.37
+P008,Ground Beef,Meat,S001,Downtown,28-07-2025,94,1,2,18-07-2025,Snowy,7.11
+P002,Yogurt,Dairy,S003,Suburb,26-07-2025,89,15,4,18-07-2025,Sunny,6.56
+P003,Chicken Breast,Meat,S003,Suburb,17-07-2025,82,10,2,14-07-2025,Snowy,2.18
+P006,Salmon,Seafood,S002,Uptown,18-07-2025,92,6,2,12-07-2025,Cloudy,14.04
+P005,Strawberries,Produce,S003,Suburb,20-07-2025,93,11,4,14-07-2025,Rainy,8.89
+P005,Strawberries,Produce,S002,Uptown,23-07-2025,51,11,4,15-07-2025,Snowy,2.33
+P001,Milk,Dairy,S003,Suburb,24-07-2025,69,13,4,21-07-2025,Snowy,5.98
+P004,Lettuce,Produce,S001,Downtown,22-07-2025,34,8,5,17-07-2025,Sunny,13.92
+P006,Salmon,Seafood,S001,Downtown,12-07-2025,45,11,2,09-07-2025,Cloudy,14.94
+P009,Spinach,Produce,S002,Uptown,18-07-2025,98,6,5,15-07-2025,Sunny,3.58
+P003,Chicken Breast,Meat,S003,Suburb,18-07-2025,51,2,2,12-07-2025,Rainy,4.57
+P010,Shrimp,Seafood,S001,Downtown,15-07-2025,21,0,2,12-07-2025,Cloudy,13.53
+P001,Milk,Dairy,S003,Suburb,17-07-2025,56,4,4,14-07-2025,Rainy,7.43
+P003,Chicken Breast,Meat,S003,Suburb,12-07-2025,34,5,2,09-07-2025,Sunny,12.89
+P002,Yogurt,Dairy,S003,Suburb,13-07-2025,63,14,4,10-07-2025,Snowy,7.64
+P005,Strawberries,Produce,S001,Downtown,20-07-2025,72,10,4,16-07-2025,Cloudy,10.54
+P001,Milk,Dairy,S003,Suburb,17-07-2025,56,4,4,14-07-2025,Rainy,7.43
+P002,Yogurt,Dairy,S001,Downtown,15-07-2025,84,14,4,12-07-2025,Cloudy,2.87
+P010,Shrimp,Seafood,S003,Suburb,16-07-2025,22,3,2,13-07-2025,Rainy,5.93
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,45,4,4,15-07-2025,Snowy,8.58
+P008,Ground Beef,Meat,S002,Uptown,17-07-2025,61,2,2,14-07-2025,Sunny,11.04
+P004,Lettuce,Produce,S001,Downtown,19-07-2025,61,0,5,16-07-2025,Sunny,3.79
+P003,Chicken Breast,Meat,S001,Downtown,18-07-2025,47,11,2,15-07-2025,Cloudy,13.22
+P006,Salmon,Seafood,S003,Suburb,22-07-2025,98,7,2,17-07-2025,Snowy,12.69
+P001,Milk,Dairy,S003,Suburb,17-07-2025,56,4,4,14-07-2025,Rainy,7.43
+P006,Salmon,Seafood,S001,Downtown,16-07-2025,74,11,2,13-07-2025,Cloudy,5.55
+P003,Chicken Breast,Meat,S002,Uptown,15-07-2025,78,8,2,12-07-2025,Cloudy,9.56
+P004,Lettuce,Produce,S001,Downtown,16-07-2025,99,14,5,12-07-2025,Sunny,3.1
+P009,Spinach,Produce,S002,Uptown,25-07-2025,67,4,5,16-07-2025,Snowy,7.75
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P009,Spinach,Produce,S002,Uptown,27-07-2025,54,12,5,21-07-2025,Cloudy,12.9
+P010,Shrimp,Seafood,S002,Uptown,22-07-2025,25,8,2,16-07-2025,Snowy,6.13
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,45,4,4,15-07-2025,Snowy,8.58
+P008,Ground Beef,Meat,S002,Uptown,23-07-2025,86,1,2,19-07-2025,Sunny,6.43
+P006,Salmon,Seafood,S003,Suburb,24-07-2025,58,0,2,21-07-2025,Cloudy,7.56
+P003,Chicken Breast,Meat,S001,Downtown,17-07-2025,72,15,2,14-07-2025,Snowy,8.7
+P002,Yogurt,Dairy,S001,Downtown,28-07-2025,79,0,4,21-07-2025,Snowy,8.9
+P006,Salmon,Seafood,S002,Uptown,22-07-2025,65,15,2,17-07-2025,Rainy,2.36
+P001,Milk,Dairy,S002,Uptown,24-07-2025,29,5,4,18-07-2025,Rainy,12.59
+P003,Chicken Breast,Meat,S003,Suburb,27-07-2025,83,15,2,21-07-2025,Snowy,3.07
+P001,Milk,Dairy,S001,Downtown,14-07-2025,35,6,4,11-07-2025,Rainy,4.1
+P010,Shrimp,Seafood,S001,Downtown,21-07-2025,42,13,2,16-07-2025,Sunny,10.88
+P005,Strawberries,Produce,S002,Uptown,22-07-2025,96,12,4,19-07-2025,Sunny,8.84
+P006,Salmon,Seafood,S001,Downtown,12-07-2025,45,11,2,09-07-2025,Cloudy,14.94
+P010,Shrimp,Seafood,S001,Downtown,15-07-2025,21,0,2,12-07-2025,Cloudy,13.53
+P010,Shrimp,Seafood,S002,Uptown,26-07-2025,28,10,2,20-07-2025,Cloudy,8.82
+P001,Milk,Dairy,S003,Suburb,24-07-2025,69,13,4,21-07-2025,Snowy,5.98
+P001,Milk,Dairy,S002,Uptown,22-07-2025,52,8,4,19-07-2025,Sunny,10.37
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,100,9,4,20-07-2025,Sunny,4.95
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P003,Chicken Breast,Meat,S003,Suburb,17-07-2025,82,10,2,14-07-2025,Snowy,2.18
+P002,Yogurt,Dairy,S001,Downtown,15-07-2025,84,14,4,12-07-2025,Cloudy,2.87
+P008,Ground Beef,Meat,S002,Uptown,17-07-2025,61,2,2,14-07-2025,Sunny,11.04
+P004,Lettuce,Produce,S001,Downtown,20-07-2025,40,9,5,11-07-2025,Cloudy,13.4
+P010,Shrimp,Seafood,S003,Suburb,21-07-2025,94,13,2,16-07-2025,Cloudy,4.61
+P005,Strawberries,Produce,S003,Suburb,18-07-2025,69,0,4,13-07-2025,Cloudy,9.17
+P007,Eggs,Dairy,S001,Downtown,11-07-2025,55,6,4,08-07-2025,Sunny,2.59
+P010,Shrimp,Seafood,S001,Downtown,15-07-2025,26,4,2,09-07-2025,Snowy,5.12
+P003,Chicken Breast,Meat,S001,Downtown,17-07-2025,72,15,2,14-07-2025,Snowy,8.7
+P008,Ground Beef,Meat,S001,Downtown,18-07-2025,67,1,2,14-07-2025,Snowy,13.01
+P001,Milk,Dairy,S003,Suburb,20-07-2025,68,3,4,17-07-2025,Sunny,4.81
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P006,Salmon,Seafood,S001,Downtown,12-07-2025,45,11,2,09-07-2025,Cloudy,14.94
+P004,Lettuce,Produce,S002,Uptown,21-07-2025,40,10,5,11-07-2025,Rainy,8.02
+P003,Chicken Breast,Meat,S001,Downtown,18-07-2025,47,11,2,15-07-2025,Cloudy,13.22
+P007,Eggs,Dairy,S003,Suburb,23-07-2025,52,11,4,16-07-2025,Cloudy,5.36
+P008,Ground Beef,Meat,S002,Uptown,17-07-2025,61,2,2,14-07-2025,Sunny,11.04
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,45,4,4,15-07-2025,Snowy,8.58
+P004,Lettuce,Produce,S003,Suburb,12-07-2025,93,0,5,09-07-2025,Snowy,14.78
+P003,Chicken Breast,Meat,S002,Uptown,17-07-2025,97,11,2,14-07-2025,Sunny,8.6
+P010,Shrimp,Seafood,S002,Uptown,24-07-2025,94,14,2,15-07-2025,Rainy,3.77
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,45,4,4,15-07-2025,Snowy,8.58
+P005,Strawberries,Produce,S002,Uptown,22-07-2025,96,12,4,19-07-2025,Sunny,8.84
+P001,Milk,Dairy,S003,Suburb,20-07-2025,68,3,4,17-07-2025,Sunny,4.81
+P002,Yogurt,Dairy,S001,Downtown,23-07-2025,79,4,4,16-07-2025,Rainy,6.23
+P008,Ground Beef,Meat,S001,Downtown,17-07-2025,77,11,2,08-07-2025,Rainy,4.16
+P001,Milk,Dairy,S001,Downtown,14-07-2025,35,6,4,11-07-2025,Rainy,4.1
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,61,2,2,16-07-2025,Rainy,8.31
+P010,Shrimp,Seafood,S003,Suburb,24-07-2025,46,0,2,21-07-2025,Cloudy,5.04
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,100,9,4,20-07-2025,Sunny,4.95
+P007,Eggs,Dairy,S002,Uptown,15-07-2025,27,11,4,11-07-2025,Sunny,8.16
+P001,Milk,Dairy,S003,Suburb,24-07-2025,69,13,4,21-07-2025,Snowy,5.98
+P001,Milk,Dairy,S003,Suburb,20-07-2025,68,3,4,17-07-2025,Sunny,4.81
+P009,Spinach,Produce,S002,Uptown,18-07-2025,98,6,5,15-07-2025,Sunny,3.58
+P002,Yogurt,Dairy,S003,Suburb,16-07-2025,75,13,4,09-07-2025,Rainy,14.97
+P007,Eggs,Dairy,S001,Downtown,14-07-2025,28,1,4,09-07-2025,Snowy,2.34
+P003,Chicken Breast,Meat,S002,Uptown,20-07-2025,86,10,2,15-07-2025,Rainy,14.65
+P008,Ground Beef,Meat,S003,Suburb,20-07-2025,75,3,2,12-07-2025,Snowy,7.33
+P001,Milk,Dairy,S001,Downtown,15-07-2025,28,5,4,09-07-2025,Snowy,14.78
+P006,Salmon,Seafood,S002,Uptown,23-07-2025,88,7,2,20-07-2025,Cloudy,12.95
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,74,4,4,16-07-2025,Snowy,11.88
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,61,2,2,16-07-2025,Rainy,8.31
+P005,Strawberries,Produce,S003,Suburb,24-07-2025,46,14,4,21-07-2025,Rainy,13.88
+P007,Eggs,Dairy,S002,Uptown,22-07-2025,67,1,4,18-07-2025,Sunny,9.3
+P004,Lettuce,Produce,S003,Suburb,14-07-2025,86,3,5,11-07-2025,Rainy,7.77
+P001,Milk,Dairy,S003,Suburb,24-07-2025,69,13,4,21-07-2025,Snowy,5.98
+P010,Shrimp,Seafood,S003,Suburb,16-07-2025,22,3,2,13-07-2025,Rainy,5.93
+P007,Eggs,Dairy,S002,Uptown,23-07-2025,100,9,4,20-07-2025,Sunny,4.95
+P002,Yogurt,Dairy,S001,Downtown,23-07-2025,91,0,4,13-07-2025,Snowy,9.52
+P009,Spinach,Produce,S001,Downtown,20-07-2025,72,8,5,10-07-2025,Snowy,7.82
+P001,Milk,Dairy,S001,Downtown,14-07-2025,35,6,4,11-07-2025,Rainy,4.1
+P005,Strawberries,Produce,S002,Uptown,22-07-2025,96,12,4,19-07-2025,Sunny,8.84
+P002,Yogurt,Dairy,S003,Suburb,20-07-2025,42,10,4,12-07-2025,Sunny,5.42
+P003,Chicken Breast,Meat,S003,Suburb,12-07-2025,34,5,2,09-07-2025,Sunny,12.89
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P001,Milk,Dairy,S002,Uptown,18-07-2025,68,12,4,10-07-2025,Snowy,9.43
+P008,Ground Beef,Meat,S002,Uptown,15-07-2025,61,5,2,08-07-2025,Sunny,9.83
+P002,Yogurt,Dairy,S003,Suburb,19-07-2025,77,9,4,13-07-2025,Rainy,12.73
+P005,Strawberries,Produce,S002,Uptown,15-07-2025,73,5,4,09-07-2025,Rainy,8.59
+P004,Lettuce,Produce,S003,Suburb,14-07-2025,86,3,5,11-07-2025,Rainy,7.77
+P007,Eggs,Dairy,S003,Suburb,26-07-2025,42,8,4,21-07-2025,Snowy,9.9
+P009,Spinach,Produce,S003,Suburb,21-07-2025,99,1,5,14-07-2025,Cloudy,10.95
+P001,Milk,Dairy,S001,Downtown,23-07-2025,62,13,4,16-07-2025,Cloudy,10.89
+P009,Spinach,Produce,S003,Suburb,17-07-2025,81,1,5,09-07-2025,Sunny,2.93
+P008,Ground Beef,Meat,S001,Downtown,29-07-2025,45,1,2,20-07-2025,Rainy,8.53
+P004,Lettuce,Produce,S003,Suburb,28-07-2025,27,3,5,18-07-2025,Snowy,14.72
+P009,Spinach,Produce,S001,Downtown,25-07-2025,72,7,5,17-07-2025,Snowy,11.37
+P002,Yogurt,Dairy,S001,Downtown,15-07-2025,84,14,4,12-07-2025,Cloudy,2.87
+P002,Yogurt,Dairy,S003,Suburb,13-07-2025,63,14,4,10-07-2025,Snowy,7.64
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,61,2,2,16-07-2025,Rainy,8.31
+P008,Ground Beef,Meat,S003,Suburb,24-07-2025,38,3,2,17-07-2025,Cloudy,4.46
+P004,Lettuce,Produce,S002,Uptown,24-07-2025,87,4,5,15-07-2025,Rainy,2.45
+P007,Eggs,Dairy,S003,Suburb,21-07-2025,99,10,4,13-07-2025,Cloudy,5.45
+P006,Salmon,Seafood,S001,Downtown,12-07-2025,45,11,2,09-07-2025,Cloudy,14.94
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P007,Eggs,Dairy,S003,Suburb,18-07-2025,45,4,4,15-07-2025,Snowy,8.58
+P005,Strawberries,Produce,S003,Suburb,17-07-2025,95,5,4,11-07-2025,Rainy,4
+P010,Shrimp,Seafood,S003,Suburb,16-07-2025,22,3,2,13-07-2025,Rainy,5.93
+P002,Yogurt,Dairy,S001,Downtown,15-07-2025,84,14,4,12-07-2025,Cloudy,2.87
+P002,Yogurt,Dairy,S001,Downtown,17-07-2025,94,11,4,08-07-2025,Snowy,12.92
+P006,Salmon,Seafood,S001,Downtown,16-07-2025,74,11,2,13-07-2025,Cloudy,5.55
+P008,Ground Beef,Meat,S001,Downtown,24-07-2025,41,12,2,21-07-2025,Rainy,9.95
+P008,Ground Beef,Meat,S003,Suburb,15-07-2025,42,2,2,10-07-2025,Sunny,8.81
+P008,Ground Beef,Meat,S002,Uptown,21-07-2025,81,2,2,15-07-2025,Sunny,6.2
+P009,Spinach,Produce,S001,Downtown,15-07-2025,86,3,5,09-07-2025,Snowy,3.48
+P002,Yogurt,Dairy,S003,Suburb,13-07-2025,63,14,4,10-07-2025,Snowy,7.64
+P003,Chicken Breast,Meat,S001,Downtown,17-07-2025,72,15,2,14-07-2025,Snowy,8.7
+P004,Lettuce,Produce,S001,Downtown,19-07-2025,61,0,5,16-07-2025,Sunny,3.79
+P001,Milk,Dairy,S002,Uptown,25-07-2025,64,4,4,21-07-2025,Snowy,5.39
+P010,Shrimp,Seafood,S001,Downtown,20-07-2025,91,15,2,11-07-2025,Rainy,6.07
+P010,Shrimp,Seafood,S001,Downtown,29-07-2025,81,12,2,20-07-2025,Cloudy,6.48
+P002,Yogurt,Dairy,S001,Downtown,15-07-2025,84,14,4,12-07-2025,Cloudy,2.87
+P008,Ground Beef,Meat,S002,Uptown,26-07-2025,74,7,2,20-07-2025,Rainy,3.48
+P008,Ground Beef,Meat,S003,Suburb,23-07-2025,52,8,2,16-07-2025,Cloudy,5.28
+P007,Eggs,Dairy,S002,Uptown,13-07-2025,75,7,4,08-07-2025,Sunny,7.85
+P006,Salmon,Seafood,S002,Uptown,23-07-2025,74,10,2,19-07-2025,Rainy,14.36
+P004,Lettuce,Produce,S003,Suburb,14-07-2025,86,3,5,11-07-2025,Rainy,7.77
+P009,Spinach,Produce,S002,Uptown,18-07-2025,98,6,5,15-07-2025,Sunny,3.58
+P002,Yogurt,Dairy,S001,Downtown,24-07-2025,88,11,4,18-07-2025,Cloudy,7.11
+P004,Lettuce,Produce,S001,Downtown,18-07-2025,47,3,5,14-07-2025,Rainy,2.4
+P003,Chicken Breast,Meat,S003,Suburb,12-07-2025,34,5,2,09-07-2025,Sunny,12.89
+P003,Chicken Breast,Meat,S003,Suburb,17-07-2025,82,10,2,14-07-2025,Snowy,2.18
+P006,Salmon,Seafood,S003,Suburb,24-07-2025,58,0,2,21-07-2025,Cloudy,7.56
+P007,Eggs,Dairy,S001,Downtown,11-07-2025,55,6,4,08-07-2025,Sunny,2.59
+P001,Milk,Dairy,S002,Uptown,22-07-2025,52,8,4,19-07-2025,Sunny,10.37
+P001,Milk,Dairy,S001,Downtown,20-07-2025,22,7,4,17-07-2025,Snowy,7.78
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P004,Lettuce,Produce,S003,Suburb,12-07-2025,93,0,5,09-07-2025,Snowy,14.78
+P004,Lettuce,Produce,S003,Suburb,14-07-2025,86,3,5,11-07-2025,Rainy,7.77
+P001,Milk,Dairy,S001,Downtown,22-07-2025,46,13,4,15-07-2025,Snowy,4.33
+P003,Chicken Breast,Meat,S001,Downtown,16-07-2025,42,1,2,13-07-2025,Snowy,14.14
+P009,Spinach,Produce,S002,Uptown,18-07-2025,98,6,5,15-07-2025,Sunny,3.58
+P009,Spinach,Produce,S003,Suburb,19-07-2025,63,0,5,16-07-2025,Rainy,11.17
+P001,Milk,Dairy,S003,Suburb,20-07-2025,68,3,4,17-07-2025,Sunny,4.81
+P005,Strawberries,Produce,S001,Downtown,19-07-2025,85,0,4,10-07-2025,Cloudy,3.74
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P003,Chicken Breast,Meat,S003,Suburb,12-07-2025,34,5,2,09-07-2025,Sunny,12.89
+P010,Shrimp,Seafood,S001,Downtown,25-07-2025,46,12,2,17-07-2025,Cloudy,10.38
+P005,Strawberries,Produce,S003,Suburb,14-07-2025,50,1,4,08-07-2025,Cloudy,14.62
+P003,Chicken Breast,Meat,S002,Uptown,27-07-2025,26,6,2,19-07-2025,Snowy,10.13
+P001,Milk,Dairy,S001,Downtown,14-07-2025,35,6,4,11-07-2025,Rainy,4.1
+P006,Salmon,Seafood,S003,Suburb,21-07-2025,21,4,2,13-07-2025,Rainy,10.91
+P005,Strawberries,Produce,S001,Downtown,22-07-2025,51,2,4,18-07-2025,Rainy,14.94
+P004,Lettuce,Produce,S001,Downtown,25-07-2025,100,0,5,15-07-2025,Snowy,7.89
+P003,Chicken Breast,Meat,S003,Suburb,17-07-2025,82,10,2,14-07-2025,Snowy,2.18
+P004,Lettuce,Produce,S003,Suburb,14-07-2025,86,3,5,11-07-2025,Rainy,7.77
+P009,Spinach,Produce,S003,Suburb,19-07-2025,63,0,5,16-07-2025,Rainy,11.17
+P004,Lettuce,Produce,S002,Uptown,24-07-2025,77,1,5,20-07-2025,Snowy,11.85
+P007,Eggs,Dairy,S001,Downtown,25-07-2025,36,9,4,19-07-2025,Sunny,13.92
+P006,Salmon,Seafood,S003,Suburb,24-07-2025,58,0,2,21-07-2025,Cloudy,7.56
+P004,Lettuce,Produce,S003,Suburb,20-07-2025,74,14,5,12-07-2025,Sunny,6.57
+P001,Milk,Dairy,S002,Uptown,22-07-2025,52,8,4,19-07-2025,Sunny,10.37
+P008,Ground Beef,Meat,S002,Uptown,15-07-2025,85,15,2,11-07-2025,Sunny,13.56
+P007,Eggs,Dairy,S002,Uptown,31-07-2025,43,0,4,21-07-2025,Rainy,6.11
+P006,Salmon,Seafood,S001,Downtown,15-07-2025,67,12,2,11-07-2025,Rainy,9.75
+P003,Chicken Breast,Meat,S001,Downtown,11-07-2025,79,12,2,08-07-2025,Sunny,10.56
+P001,Milk,Dairy,S001,Downtown,26-07-2025,81,15,4,20-07-2025,Snowy,14.94
+P009,Spinach,Produce,S003,Suburb,20-07-2025,83,2,5,15-07-2025,Rainy,14.52
+P010,Shrimp,Seafood,S003,Suburb,23-07-2025,68,12,2,20-07-2025,Snowy,6.54
+P005,Strawberries,Produce,S002,Uptown,16-07-2025,88,6,4,12-07-2025,Sunny,12.44
+P008,Ground Beef,Meat,S002,Uptown,24-07-2025,67,5,2,21-07-2025,Rainy,11.47
+P004,Lettuce,Produce,S003,Suburb,13-07-2025,84,11,5,08-07-2025,Sunny,9.12
+P010,Shrimp,Seafood,S001,Downtown,15-07-2025,21,0,2,12-07-2025,Cloudy,13.53
+P008,Ground Beef,Meat,S002,Uptown,15-07-2025,32,9,2,10-07-2025,Rainy,3.04
+P006,Salmon,Seafood,S003,Suburb,20-07-2025,30,11,2,11-07-2025,Snowy,11.74
+P009,Spinach,Produce,S003,Suburb,27-07-2025,22,9,5,17-07-2025,Cloudy,11.01
+P006,Salmon,Seafood,S002,Uptown,19-07-2025,61,2,2,16-07-2025,Rainy,8.31
+P001,Milk,Dairy,S003,Suburb,20-07-2025,44,5,4,11-07-2025,Rainy,14.62
